@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D8972892B7CB5A90079F725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8972882B7CB5A90079F725 /* Images.xcassets */; };
+		2DB627362B7D150500C5A8E6 /* DenDenMushi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DB627352B7D150500C5A8E6 /* DenDenMushi.wav */; };
 		7699B88040F8A987B510C191 /* libPods-rn_starter-rn_starterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rn_starter-rn_starterTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rn_starter/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-rn_starter-rn_starterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn_starter-rn_starterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8972882B7CB5A90079F725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DB627352B7D150500C5A8E6 /* DenDenMushi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DenDenMushi.wav; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-rn_starter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_starter.debug.xcconfig"; path = "Target Support Files/Pods-rn_starter/Pods-rn_starter.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-rn_starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_starter.release.xcconfig"; path = "Target Support Files/Pods-rn_starter/Pods-rn_starter.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-rn_starter-rn_starterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_starter-rn_starterTests.debug.xcconfig"; path = "Target Support Files/Pods-rn_starter-rn_starterTests/Pods-rn_starter-rn_starterTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2DB627352B7D150500C5A8E6 /* DenDenMushi.wav */,
 				13B07FAE1A68108700A75B9A /* rn_starter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* rn_starterTests */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB627362B7D150500C5A8E6 /* DenDenMushi.wav in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				2D8972892B7CB5A90079F725 /* Images.xcassets in Resources */,
 			);

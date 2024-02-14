@@ -45,7 +45,7 @@ const App = () => {
             banner: true,
             list: true,
           },
-          sound: './Assets/DenDenMushi.wav', // not working
+          sound: 'DenDenMushi.wav',
         },
       });
     } catch (error) {
